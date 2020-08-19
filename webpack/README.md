@@ -73,3 +73,12 @@ npx webpack --config 04/webpack.config.js
 ```
 npm install sass-loader node-sass --save-dev
 ```
+
+```js
+{
+  test: /\.scss$/,
+  use: ['style-loader','css-loader', 'sass-loader']
+}
+```
+
+模块的加载就是从右像左来的，所以先加载sass-loader翻译成css文件，然后使用css-loader打包成一个css文件，在通过style-loader挂载到页面上去。
