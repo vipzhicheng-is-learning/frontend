@@ -1,6 +1,6 @@
 ## 1、最简单的示例
 
-安装依赖
+安装依赖：
 
 ```
 npm i -g webpack webpack-cli
@@ -13,7 +13,7 @@ npx webpack --config 01/webpack.config.js
 
 ## 2、体验 `file-loader`
 
-安装依赖
+安装依赖：
 
 ```
 npm install file-loader -D
@@ -67,3 +67,9 @@ npx webpack --config 04/webpack.config.js
 ```
 
 ## 5、体验 `sass-loader`
+
+安装依赖：
+
+```
+npm install sass-loader node-sass --save-dev
+```
