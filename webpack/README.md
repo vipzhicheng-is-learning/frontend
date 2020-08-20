@@ -82,3 +82,11 @@ npm install sass-loader node-sass --save-dev
 ```
 
 模块的加载就是从右像左来的，所以先加载sass-loader翻译成css文件，然后使用css-loader打包成一个css文件，在通过style-loader挂载到页面上去。
+
+## 6、体验 `postcss-loader`
+
+安装依赖：
+
+```
+npm i -D postcss-loader autoprefixer
+```
